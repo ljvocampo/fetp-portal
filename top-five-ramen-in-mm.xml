@@ -7,15 +7,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
-  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
-  <script src="https://static.codepen.io/assets/editor/full/full_page_renderer-d1272bd93f34d522db6455c18b758c16b8cf7919c20ec1547f29ce0672367ef1.js"></script>
-  <link rel="stylesheet" media="screen" href="https://static.codepen.io/assets/fullpage/fullpage-b3b9e9fa5ecfbc69f7d844752cbbf55af2babc6bca6c3d9b3ea1c85715ef7ff6.css">
+  <script src="https://raw.githubusercontent.com/ljvocampo/fetp-portal/master/custom.js"></script>
+  <link rel="stylesheet" media="screen" href="https://raw.githubusercontent.com/ljvocampo/fetp-portal/master/style.css">
   <title>CodePen - FAQ</title>
   
   
   
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/ljvocampo/fetp-portal/master/styles.css">
 
       <style>
       @import url('https://fonts.googleapis.com/css?family=Hind:300,400');
@@ -99,7 +97,7 @@ h3 {
   right: 1rem;
   font-size: 1rem;
   color: #7288a2;
-  padding: 2px 5px;
+  padding: 5px;
   width: 30px;
   height: 30px;
   -webkit-border-radius: 50%;
@@ -177,7 +175,7 @@ a:hover, a:focus, a:active {
 	<span style="font-size:15px;    font-style: italic;"><br>※ according to <a href="https://tabelog.com/ramen/kanagawa/A1401/A140103/rank/">www.tabelog.com</a></span></h2>
   <div class="accordion">
     <div class="accordion-item">
-      <a>① Iraka (甍)</a>
+      <a>⓵ Iraka (甍)</a>
       <div class="content">
         <p>	Categories : Ramen, Tsukemen <br>
 			Location : Minato Mirai Center Building 3F <br>
@@ -189,7 +187,7 @@ a:hover, a:focus, a:active {
       </div>
     </div>
     <div class="accordion-item">
-      <a>② Tetsu</a>
+      <a>⓶ Tetsu</a>
       <div class="content">
         <p>	Categories : Tsukemen, Ramen, Dumplings <br>
 			Location : Landmark Plaza 1F<br>
@@ -199,7 +197,7 @@ a:hover, a:focus, a:active {
       </div>
     </div>
     <div class="accordion-item">
-      <a>③ Hakata Daruma (博多だるま)</a>
+      <a>⓷ Hakata Daruma (博多だるま)</a>
       <div class="content">
         <p>	Categories : Ramen<br>
 			Location : MARK IS Minato Mirai 4F<br>
@@ -210,7 +208,7 @@ a:hover, a:focus, a:active {
       </div>
     </div>
     <div class="accordion-item">
-      <a>④ Ippuudou (一風堂)</a>
+      <a>⓸ Ippuudou (一風堂)</a>
       <div class="content">
         <p>	Categories : Ramen, Tsukemen <br>
 			Location : Queen's Minato Mirai Tokyu Square 1 B1 F<br>
