@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Ranking Gadget" />
+<Content type="html">
+<![CDATA[
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+  <script src="https://static.codepen.io/assets/editor/full/full_page_renderer-d1272bd93f34d522db6455c18b758c16b8cf7919c20ec1547f29ce0672367ef1.js"></script>
+  <link rel="stylesheet" media="screen" href="https://static.codepen.io/assets/fullpage/fullpage-b3b9e9fa5ecfbc69f7d844752cbbf55af2babc6bca6c3d9b3ea1c85715ef7ff6.css">
+  <title>CodePen - FAQ</title>
+  
+  
+  
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+overflow: scroll !important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #4d5974;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #373d51;
+  padding: 1.3rem;
+  margin: 0;
+}
+
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 2px 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+a {
+    text-decoration: none;
+    color: #0276a0;
+}
+a:hover, a:focus, a:active {
+
+    cursor: pointer;
+    color: #1c5e9f;
+
+}
+    </style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+
+  <div class="container">
+
+  <h2>Top 5 Ramen Shops in Minatomirai
+	<span style="font-size:15px;    font-style: italic;"><br>※ according to <a href="https://tabelog.com/ramen/kanagawa/A1401/A140103/rank/">www.tabelog.com</a></span></h2>
+  <div class="accordion">
+    <div class="accordion-item">
+      <a>① Iraka (甍)</a>
+      <div class="content">
+        <p>	Categories : Ramen, Tsukemen <br>
+			Location : Minato Mirai Center Building 3F <br>
+			Operating Hours : <br>
+			&nbsp;&nbsp;&nbsp;【Weekday】  11: 00 ~ 22: 00 <br>
+			&nbsp;&nbsp;&nbsp;【Saturday】 11: 00 ~ 21: 00 <br>
+			&nbsp;&nbsp;&nbsp;【Holidays】 11: 00 ~ 16: 00<br>
+			Budget : 999円</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>② Tetsu</a>
+      <div class="content">
+        <p>	Categories : Tsukemen, Ramen, Dumplings <br>
+			Location : Landmark Plaza 1F<br>
+			Operating Hours : <br>
+			&nbsp;&nbsp;&nbsp;【Monday-Sunday】  11:00～23:00<br>
+			Budget : 999円</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>③ Hakata Daruma (博多だるま)</a>
+      <div class="content">
+        <p>	Categories : Ramen<br>
+			Location : MARK IS Minato Mirai 4F<br>
+			Operating Hours : <br>
+			&nbsp;&nbsp;&nbsp;[Mon〜Thurs] 10:00〜20:00<br>
+			&nbsp;&nbsp;&nbsp;[Fri・Sat・Sun・Holidays] 10:00〜21:00<br>
+			Budget : 999円</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>④ Ippuudou (一風堂)</a>
+      <div class="content">
+        <p>	Categories : Ramen, Tsukemen <br>
+			Location : Queen's Minato Mirai Tokyu Square 1 B1 F<br>
+			Operating Hours : <br>
+			&nbsp;&nbsp;&nbsp;【Monday-Sunday】  11:00～22:00<br>
+			Budget : 999円</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <a>⓹ AFURI</a>
+      <div class="content">
+        <p>	Categories : Ramen <br>
+			Location : Landmark Plaza 1F<br>
+			Operating Hours : <br>
+			&nbsp;&nbsp;&nbsp;【Monday-Sunday】  11:00～23:00<br>
+			Budget : 【Lunch】 ～999円 【Night】 1,000円～1,999円</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+    <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  
+
+    <script>
+      var items = document.querySelectorAll(".accordion a");
+
+function toggleAccordion() {
+  this.classList.toggle('active');
+  this.nextElementSibling.classList.toggle('active');
+}
+
+items.forEach(function (item) {return item.addEventListener('click', toggleAccordion);});
+      //# sourceURL=pen.js
+    </script>
+ </body>
+</html>
+]]></Content>
+</Module> 
